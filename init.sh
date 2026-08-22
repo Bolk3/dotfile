@@ -3,11 +3,12 @@
 set -e
 
 ask() {
-	while read -p "$1" ANWSER; do
-		case ${AWNSER,,} in
-			y|yes)	return 1;;
-			n|no)	return 0;;
-			*)	echo "not a valid awnser";;
+	local ANSWER
+	while read -rp "$1" ANSWER; do
+		case ${ANSWER,,} in
+			y|yes)  return 0;;
+			n|no)   return 1;;
+			*)      echo "not a valid answer";;
 		esac
 	done
 }
@@ -19,8 +20,10 @@ fi
 
 if [ -d ~/dotfile ]; then
 	echo "dotfile detected"
-	if [ask ":: Do you want to delete the previous dotfile" -eq 1]; then
+	if ask ":: Do you want to delete the previous dotfile? (y/n) "; then
 		rm -rf ~/dotfile
+	else
+		exit 1
 	fi
 fi
 
