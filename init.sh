@@ -23,4 +23,11 @@ if [ -d ~/dotfile ]; then
 		rm -rf ~/dotfile
 	fi
 fi
-git clone https://github.com/Bolk3/dotfile.git ~/dotfile
+
+if ! git clone git@github.com:Bolk3/dotfile.git ~/dotfile; then
+	echo "Clone SSH failed. trying in http"
+	if !git clone https://github.com/Bolk3/dotfile.git ~/dotfile; then
+		echo "cannot clone repo"
+		exit 1
+	fi
+fi
