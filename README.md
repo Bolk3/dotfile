@@ -1,2 +1,4 @@
 # dotfile
 my dotfiles
+
+stow
