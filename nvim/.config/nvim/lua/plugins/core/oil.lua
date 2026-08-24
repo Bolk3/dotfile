@@ -4,5 +4,9 @@ return {
     ---@type oil.SetupOpts
     dependencies = { { "nvim-mini/mini.icons", opts = {} } },
     lazy = false,
-    opts = {},
+    opts = {
+        view_options = {
+            show_hidden = true
+        }
+    },
 }
