@@ -5,4 +5,6 @@ return {
 	require("plugins.themes.eldritch"),
 	require("plugins.themes.omni"),
 	require("plugins.themes.oldworld"),
+    require("plugins.themes.catppuccin"),
+    require("plugins.themes.github"),
 }
