@@ -1,8 +1,8 @@
 # dotfile/nvim/.config/nvim
 
-<a href="https://dotfyle.com/Bolk3/dotfile-nvim-config-nvim"><img src="https://dotfyle.com/Bolk3/dotfile-nvim-config-nvim/badges/plugins?style=for-the-badge" /></a>
-<a href="https://dotfyle.com/Bolk3/dotfile-nvim-config-nvim"><img src="https://dotfyle.com/Bolk3/dotfile-nvim-config-nvim/badges/leaderkey?style=for-the-badge" /></a>
-<a href="https://dotfyle.com/Bolk3/dotfile-nvim-config-nvim"><img src="https://dotfyle.com/Bolk3/dotfile-nvim-config-nvim/badges/plugin-manager?style=for-the-badge" /></a>
+<a href="https://dotfyle.com/Bolk3/dotfile-nvim-config-nvim"><img src="https://dotfyle.com/Bolk3/dotfile-nvim-config-nvim/badges/plugins?style=flat" /></a>
+<a href="https://dotfyle.com/Bolk3/dotfile-nvim-config-nvim"><img src="https://dotfyle.com/Bolk3/dotfile-nvim-config-nvim/badges/leaderkey?style=flat" /></a>
+<a href="https://dotfyle.com/Bolk3/dotfile-nvim-config-nvim"><img src="https://dotfyle.com/Bolk3/dotfile-nvim-config-nvim/badges/plugin-manager?style=flat" /></a>
 
 ## Install Instructions
 
