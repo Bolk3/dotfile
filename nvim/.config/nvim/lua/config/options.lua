@@ -21,3 +21,4 @@ vim.opt.scrolloff = 8
 vim.opt.termguicolors = true
 
 vim.opt.clipboard = "unnamedplus"
+vim.o.guifont = "JetBrainsMono Nerd Font:h13"

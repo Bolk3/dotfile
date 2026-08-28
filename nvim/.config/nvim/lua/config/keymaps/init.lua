@@ -5,4 +5,5 @@ return {
     require("config.keymaps.oil"),
     require("config.keymaps.diagnostics"),
     require("config.keymaps.themery"),
+    require("config.keymaps.generals"),
 }
