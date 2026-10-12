@@ -1,4 +1,4 @@
 return {
-	require("plugins.git.gh"),
-	require("plugins.git.lazygit")
+	require("plugins.git.lazygit"),
+    require("plugins.git.atlas")
 }
