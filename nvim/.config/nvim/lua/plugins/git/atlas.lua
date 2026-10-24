@@ -9,6 +9,8 @@ return {
     keys = {
         { "<leader>gp", "<cmd>Atlas pulls github<cr>", desc = "GitHub Pull Requests" },
         { "<leader>gi", "<cmd>Atlas issues github<cr>", desc = "GitHub Issues" },
+        { "<leader>gcp", "<cmd>Atlas create pr<cr>", desc = "Create pull request" },
+        { "<leader>gci", "<cmd>Atlas create issue<cr>", desc = "Create issue" },
     },   
     ---@type AtlasConfig
     opts = {
